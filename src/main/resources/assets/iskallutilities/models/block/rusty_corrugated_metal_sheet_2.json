@@ -1,0 +1,6 @@
+{
+	"parent": "block/cube_all",
+	"textures": {
+		"all": "iskallutilities:block/rusty_corrugated_metal_sheet_2"
+	}
+}

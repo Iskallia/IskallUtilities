@@ -1,0 +1,6 @@
+{
+	"parent": "block/cube_all",
+	"textures": {
+		"all": "iskallutilities:block/light_metal_plate_rusty_edge_rivets_3"
+	}
+}
