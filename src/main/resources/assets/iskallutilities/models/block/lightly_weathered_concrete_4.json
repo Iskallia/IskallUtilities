@@ -1,6 +1,7 @@
 {
-	"parent": "block/cube_all",
+	"parent": "minecraft:block/cube_column",
 	"textures": {
-		"all": "iskallutilities:block/lightly_weathered_concrete_4"
+		"end": "iskallutilities:block/plain_concrete",
+		"side": "iskallutilities:block/lightly_weathered_concrete_4"
 	}
 }

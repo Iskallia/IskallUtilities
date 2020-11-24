@@ -1,0 +1,99 @@
+{
+	"industrialmetal.break": {
+		"category": "block",
+		"subtitle": "subtitle.iskallutilities.metalBlockBreak",
+		"sounds": [
+			"iskallutilities:metal_break1",
+			"iskallutilities:metal_break2",
+			"iskallutilities:metal_break3",
+			"iskallutilities:metal_break4"
+		]
+	},
+	"industrialmetal.step": {
+		"category": "block",
+		"subtitle": "subtitle.iskallutilities.metalBlockStep",
+		"sounds": [
+			"iskallutilities:metal_step1",
+			"iskallutilities:metal_step2",
+			"iskallutilities:metal_step3",
+			"iskallutilities:metal_step4",
+			"iskallutilities:metal_step5",
+			"iskallutilities:metal_step6"
+		]
+	},
+	"industrialmetal.place": {
+		"category": "block",
+		"subtitle": "subtitle.iskallutilities.metalBlockPlace",
+		"sounds": [
+			"iskallutilities:metal_place1",
+			"iskallutilities:metal_place2",
+			"iskallutilities:metal_place3",
+			"iskallutilities:metal_place4"
+		]
+	},
+	"metaltrapdoor.open": {
+		"category": "block",
+		"subtitle": "subtitle.iskallutilities.metalTrapdoorOpen",
+		"sounds": [
+			"iskallutilities:metal_trapdoor_open1",
+			"iskallutilities:metal_trapdoor_open2",
+			"iskallutilities:metal_trapdoor_open3"
+		]
+	},
+	"metaltrapdoor.close": {
+		"category": "block",
+		"subtitle": "subtitle.iskallutilities.metalTrapdoorClose",
+		"sounds": [
+			"iskallutilities:metal_trapdoor_close1",
+			"iskallutilities:metal_trapdoor_close2",
+			"iskallutilities:metal_trapdoor_close3"
+		]
+	},
+	"duct.break": {
+		"category": "block",
+		"subtitle": "subtitle.iskallutilities.ductBreak",
+		"sounds": [
+			"iskallutilities:duct_break1",
+			"iskallutilities:duct_break2",
+			"iskallutilities:duct_break3",
+			"iskallutilities:duct_break4"
+		]
+	},
+	"duct.step": {
+		"category": "block",
+		"subtitle": "subtitle.iskallutilities.ductStep",
+		"sounds": [
+			"iskallutilities:duct_step1",
+			"iskallutilities:duct_step2",
+			"iskallutilities:duct_step3",
+			"iskallutilities:duct_step4",
+			"iskallutilities:duct_step5"
+		]
+	},
+	"duct.place": {
+		"category": "block",
+		"subtitle": "subtitle.iskallutilities.ductPlace",
+		"sounds": [
+			"iskallutilities:duct_place1",
+			"iskallutilities:duct_place2",
+			"iskallutilities:duct_place3",
+			"iskallutilities:duct_place4",
+			"iskallutilities:duct_place5",
+			"iskallutilities:duct_place6"
+		]
+	},
+	"duct.hit": {
+		"category": "block",
+		"subtitle": "subtitle.iskallutilities.ductHit",
+		"sounds": [
+			"iskallutilities:duct_hit1"
+		]
+	},
+	"duct.fall": {
+		"category": "block",
+		"subtitle": "subtitle.iskallutilities.ductFall",
+		"sounds": [
+			"iskallutilities:duct_fall1"
+		]
+	}
+}

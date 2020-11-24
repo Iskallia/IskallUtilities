@@ -1,6 +1,7 @@
 {
-	"parent": "block/cube_all",
+	"parent": "minecraft:block/cube_column",
 	"textures": {
-		"all": "iskallutilities:block/metal_air_duct_4"
+		"end": "iskallutilities:block/air_duct_vent",
+		"side": "iskallutilities:block/metal_air_duct_4"
 	}
 }

@@ -1,0 +1,53 @@
+{
+	"textures": {
+		"digital_key_pad": "iskallutilities:block/digital_key_pad",
+		"particle": "iskallutilities:block/digital_key_pad"
+	},
+	"display": {
+		"gui": {
+			"rotation": [ 30, 45, 0 ],
+			"translation": [ 0, 0, 0 ],
+			"scale": [ 0.625, 0.625, 0.625 ]
+		},
+		"ground": {
+			"rotation": [ 0, 0, 0 ],
+			"translation": [ 0, 3, 0 ],
+			"scale": [ 0.25, 0.25, 0.25 ]
+		},
+		"fixed": {
+			"rotation": [ 0, 180, 0 ],
+			"translation": [ 0, 0, 0 ],
+			"scale": [ 1, 1, 1 ]
+		},
+		"head": {
+			"rotation": [ 0, 180, 0 ],
+			"translation": [ 0, 0, 0 ],
+			"scale": [ 1, 1, 1 ]
+		},
+		"firstperson_righthand": {
+			"rotation": [ 0, 315, 0 ],
+			"translation": [ 0, 2.5, 0 ],
+			"scale": [ 0.4, 0.4, 0.4 ]
+		},
+		"thirdperson_righthand": {
+			"rotation": [ 75, 315, 0 ],
+			"translation": [ 0, 2.5, 0 ],
+			"scale": [ 0.375, 0.375, 0.375 ]
+		}
+	},
+	"elements": [
+		{
+			"name": "panel",
+			"from": [ 2, 3, 0 ], 
+			"to": [ 14, 11, 1 ], 
+			"faces": {
+				"north": { "texture": "#digital_key_pad", "uv": [ 2, 3, 14, 11 ] },
+				"east": { "texture": "#digital_key_pad", "uv": [ 1, 3, 2, 11 ] },
+				"south": { "texture": "#digital_key_pad", "uv": [ 2, 3, 14, 11 ] },
+				"west": { "texture": "#digital_key_pad", "uv": [ 14, 3, 15, 11 ] },
+				"up": { "texture": "#digital_key_pad", "uv": [ 2, 2, 14, 3 ] },
+				"down": { "texture": "#digital_key_pad", "uv": [ 2, 11, 14, 12 ] }
+			}
+		}
+	]
+}

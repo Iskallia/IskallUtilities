@@ -1,0 +1,102 @@
+{
+	"textures": {
+		"power_container": "iskallutilities:block/power_container",
+		"power_container2": "iskallutilities:block/power_container2",
+		"particle": "iskallutilities:block/power_container"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "bottom",
+            "from": [ 4, 0, 5 ], 
+            "to": [ 12, 2, 13 ], 
+            "faces": {
+                "north": { "texture": "#power_container", "uv": [ 4, 14, 12, 16 ] },
+                "east": { "texture": "#power_container2", "uv": [ 0, 14, 8, 16 ] },
+                "south": { "texture": "#power_container2", "uv": [ 0, 14, 8, 16 ] },
+                "west": { "texture": "#power_container2", "uv": [ 0, 14, 8, 16 ] },
+                "up": { "texture": "#power_container2", "uv": [ 8, 0, 16, 8 ] },
+                "down": { "texture": "#power_container2", "uv": [ 8, 8, 16, 16 ] }
+            }
+        },
+        {
+            "name": "ring1",
+            "from": [ 5, 2, 6 ], 
+            "to": [ 11, 3, 12 ], 
+            "faces": {
+                "north": { "texture": "#power_container", "uv": [ 5, 2, 11, 3 ] },
+                "east": { "texture": "#power_container2", "uv": [ 1, 2, 7, 3 ] },
+                "south": { "texture": "#power_container2", "uv": [ 1, 2, 7, 3 ] },
+                "west": { "texture": "#power_container2", "uv": [ 1, 2, 7, 3 ] }
+            }
+        },
+        {
+            "name": "middle",
+            "from": [ 4, 3, 5 ], 
+            "to": [ 12, 13, 13 ], 
+            "faces": {
+                "north": { "texture": "#power_container", "uv": [ 4, 3, 12, 13 ] },
+                "east": { "texture": "#power_container2", "uv": [ 0, 3, 8, 13 ] },
+                "south": { "texture": "#power_container2", "uv": [ 0, 3, 8, 13 ] },
+                "west": { "texture": "#power_container2", "uv": [ 0, 3, 8, 13 ] },
+                "up": { "texture": "#power_container2", "uv": [ 8, 0, 16, 8 ] },
+                "down": { "texture": "#power_container2", "uv": [ 8, 8, 16, 16 ] }
+            }
+        },
+        {
+            "name": "ring2",
+            "from": [ 5, 13, 6 ], 
+            "to": [ 11, 14, 12 ], 
+            "faces": {
+                "north": { "texture": "#power_container", "uv": [ 5, 2, 11, 3 ] },
+                "east": { "texture": "#power_container2", "uv": [ 1, 2, 7, 3 ] },
+                "south": { "texture": "#power_container2", "uv": [ 1, 2, 7, 3 ] },
+                "west": { "texture": "#power_container2", "uv": [ 1, 2, 7, 3 ] }
+            }
+        },
+        {
+            "name": "top",
+            "from": [ 4, 14, 5 ], 
+            "to": [ 12, 16, 13 ], 
+            "faces": {
+                "north": { "texture": "#power_container", "uv": [ 4, 0, 12, 2 ] },
+                "east": { "texture": "#power_container2", "uv": [ 0, 0, 8, 2 ] },
+                "south": { "texture": "#power_container2", "uv": [ 0, 0, 8, 2 ] },
+                "west": { "texture": "#power_container2", "uv": [ 0, 0, 8, 2 ] },
+                "up": { "texture": "#power_container2", "uv": [ 8, 0, 16, 8 ] },
+                "down": { "texture": "#power_container2", "uv": [ 8, 8, 16, 16 ] }
+            }
+        }
+    ]
+}

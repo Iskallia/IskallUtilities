@@ -1,9 +1,16 @@
 {
 	"variants": {
-		"": [
-			{
-				"model": "iskallutilities:block/metal_air_duct_5"
-			}
-		]
+		"axis=x": {
+			"model": "iskallutilities:block/metal_air_duct_5_horizontal",
+			"x": 90,
+			"y": 90
+		},
+		"axis=y": {
+			"model": "iskallutilities:block/metal_air_duct_5"
+		},
+		"axis=z": {
+			"model": "iskallutilities:block/metal_air_duct_5_horizontal",
+			"x": 90
+		}
 	}
 }

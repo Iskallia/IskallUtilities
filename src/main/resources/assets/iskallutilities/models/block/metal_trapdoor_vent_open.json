@@ -1,0 +1,6 @@
+{
+	"parent": "iskallutilities:block/template_trapdoor_open",
+	"textures": {
+		"texture": "iskallutilities:block/metal_trapdoor_vent"
+	}
+}

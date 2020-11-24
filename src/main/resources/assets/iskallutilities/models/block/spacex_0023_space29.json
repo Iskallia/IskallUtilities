@@ -1,0 +1,6 @@
+{
+	"parent": "block/cube_all",
+	"textures": {
+		"all": "iskallutilities:block/spacex_0023_space29"
+	}
+}

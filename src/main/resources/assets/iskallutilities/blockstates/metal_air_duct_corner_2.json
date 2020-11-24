@@ -1,9 +1,27 @@
 {
 	"variants": {
-		"": [
-			{
-				"model": "iskallutilities:block/metal_air_duct_corner_2"
-			}
-		]
+		"facing=south": {
+			"model": "iskallutilities:block/metal_air_duct_corner_2",
+			"y": 180
+		},
+		"facing=north": {
+			"model": "iskallutilities:block/metal_air_duct_corner_2"
+		},
+		"facing=east": {
+			"model": "iskallutilities:block/metal_air_duct_corner_2",
+			"y": 90
+		},
+		"facing=west": {
+			"model": "iskallutilities:block/metal_air_duct_corner_2",
+			"y": 270
+		},
+		"facing=down": {
+			"model": "iskallutilities:block/metal_air_duct_corner_2",
+			"x": 90
+		},
+		"facing=up": {
+			"model": "iskallutilities:block/metal_air_duct_corner_2",
+			"x": 180
+		}
 	}
 }

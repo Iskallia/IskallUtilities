@@ -1,6 +1,12 @@
 {
-	"parent": "block/cube_all",
+	"parent": "block/cube_directional",
 	"textures": {
-		"all": "iskallutilities:block/metal_air_duct_corner_2"
+		"down": "iskallutilities:block/air_duct_vent",
+		"up": "iskallutilities:block/metal_air_duct_4",
+		"north": "iskallutilities:block/air_duct_vent",
+		"south": "iskallutilities:block/metal_air_duct_4",
+		"west": "iskallutilities:block/metal_air_duct_corner_2",
+		"east": "iskallutilities:block/metal_air_duct_corner_2",
+		"particle": "iskallutilities:block/air_duct_vent"
 	}
 }
