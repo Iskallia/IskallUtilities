@@ -1,6 +1,12 @@
 {
-	"parent": "block/cube_all",
+	"parent": "block/cube",
 	"textures": {
-		"all": "iskallutilities:block/asphalt_light_top"
+		"up": "iskallutilities:block/asphalt_light_top",
+		"down": "iskallutilities:block/asphalt_side",
+		"south": "iskallutilities:block/asphalt_side",
+		"north": "iskallutilities:block/asphalt_side",
+		"east": "iskallutilities:block/asphalt_side",
+		"west": "iskallutilities:block/asphalt_side",
+		"particle": "iskallutilities:block/asphalt_side"
 	}
 }

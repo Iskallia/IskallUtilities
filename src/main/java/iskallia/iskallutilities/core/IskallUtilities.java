@@ -38,8 +38,6 @@ public class IskallUtilities
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::loadComplete);
 		
 		MinecraftForge.EVENT_BUS.register(this);
-		
-		//setup config
 	}
 	
 	private void setup(final FMLCommonSetupEvent event)

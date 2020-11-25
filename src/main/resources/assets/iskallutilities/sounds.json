@@ -28,7 +28,18 @@
 			"iskallutilities:metal_place1",
 			"iskallutilities:metal_place2",
 			"iskallutilities:metal_place3",
-			"iskallutilities:metal_place4"
+			"iskallutilities:metal_place4",
+			"iskallutilities:metal_place5",
+			"iskallutilities:metal_place6"
+		]
+	},
+	"industrialmetal.hit": {
+		"category": "block",
+		"subtitle": "subtitle.iskallutilities.metalBlockHit",
+		"sounds": [
+			"iskallutilities:metal_hit1",
+			"iskallutilities:metal_hit2",
+			"iskallutilities:metal_hit3"
 		]
 	},
 	"metaltrapdoor.open": {

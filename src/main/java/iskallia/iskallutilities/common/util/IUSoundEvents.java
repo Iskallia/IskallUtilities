@@ -10,7 +10,7 @@ public class IUSoundEvents
 	public static final SoundEvent BLOCK_INDUSTRIAL_BREAK = register("industrialmetal.break");
 	public static final SoundEvent BLOCK_INDUSTRIAL_STEP = register("industrialmetal.step");
 	public static final SoundEvent BLOCK_INDUSTRIAL_PLACE = register("industrialmetal.place");
-	public static final SoundEvent BLOCK_INDUSTRIAL_HIT = register("industrialmetal.step");
+	public static final SoundEvent BLOCK_INDUSTRIAL_HIT = register("industrialmetal.hit");
 	public static final SoundEvent BLOCK_INDUSTRIAL_FALL = register("industrialmetal.break");
 	
 	public static final SoundEvent BLOCK_DUCT_BREAK = register("duct.break");
@@ -22,10 +22,8 @@ public class IUSoundEvents
 	public static final SoundEvent BLOCK_METAL_TRAPDOOR_OPEN = register("metaltrapdoor.open");
 	public static final SoundEvent BLOCK_METAL_TRAPDOOR_CLOSE = register("metaltrapdoor.close");
 	
-	//@SuppressWarnings("deprecation")
 	private static SoundEvent register(String key)
 	{
 		return new SoundEvent(new ResourceLocation(IskallUtilities.MOD_ID, key));
-		//return Registry.register(Registry.SOUND_EVENT, key, new SoundEvent(new ResourceLocation(IskallUtilities.MOD_ID, key)));
 	}
 }

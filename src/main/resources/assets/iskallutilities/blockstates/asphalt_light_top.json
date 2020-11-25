@@ -1,9 +1,19 @@
 {
 	"variants": {
-		"": [
-			{
-				"model": "iskallutilities:block/asphalt_light_top"
-			}
-		]
+		"facing=south": {
+			"model": "iskallutilities:block/asphalt_light_top"
+		},
+		"facing=north": {
+			"model": "iskallutilities:block/asphalt_light_top",
+			"y": 180
+		},
+		"facing=east": {
+			"model": "iskallutilities:block/asphalt_light_top",
+			"y": 270
+		},
+		"facing=west": {
+			"model": "iskallutilities:block/asphalt_light_top",
+			"y": 90
+		}
 	}
 }
