@@ -65,7 +65,6 @@ public class Blocks
 		metal_plate_rusty_edge_rivets = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.IRON).sound(IUSoundType.INDUSTRIAL_METAL).func_235861_h_().hardnessAndResistance(1.8F)), "metal_plate_rusty_edge_rivets");
 		metal_plate_rusty_edge = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.IRON).sound(IUSoundType.INDUSTRIAL_METAL).func_235861_h_().hardnessAndResistance(1.8F)), "metal_plate_rusty_edge");
 		metal_plate = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.IRON).sound(IUSoundType.INDUSTRIAL_METAL).func_235861_h_().hardnessAndResistance(1.8F)), "metal_plate");
-		metal_trapdoor_vent = registerBlock(new TrapDoorBlockIndustrial(AbstractBlock.Properties.create(Material.IRON).func_235861_h_().hardnessAndResistance(5.0F).sound(SoundType.METAL).notSolid().func_235827_a_(Blocks::dunnoWhatThisIs), false), "metal_trapdoor_vent");
 		plain_concrete = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.ROCK).func_235861_h_().hardnessAndResistance(1.8F)), "plain_concrete");
 		rusty_concrete_metal_plate = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.ROCK).func_235861_h_().hardnessAndResistance(1.8F)), "rusty_concrete_metal_plate");
 		rusty_corrugated_metal_sheet_1 = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.IRON).sound(IUSoundType.INDUSTRIAL_METAL).func_235861_h_().hardnessAndResistance(1.8F)), "rusty_corrugated_metal_sheet_1");
@@ -78,7 +77,6 @@ public class Blocks
 		semi_rusty_metal_plate_rivets = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.IRON).sound(IUSoundType.INDUSTRIAL_METAL).func_235861_h_().hardnessAndResistance(1.8F)), "semi_rusty_metal_plate_rivets");
 		semi_rusty_metal_plate = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.IRON).sound(IUSoundType.INDUSTRIAL_METAL).func_235861_h_().hardnessAndResistance(1.8F)), "semi_rusty_metal_plate");
 		semi_rusty_metal_plate_2 = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.IRON).sound(IUSoundType.INDUSTRIAL_METAL).func_235861_h_().hardnessAndResistance(1.8F)), "semi_rusty_metal_plate_2");
-		steaming_metal_trapdoor_vent = registerBlock(new TrapDoorBlockIndustrial(AbstractBlock.Properties.create(Material.IRON).func_235861_h_().hardnessAndResistance(5.0F).sound(SoundType.METAL).notSolid().func_235827_a_(Blocks::dunnoWhatThisIs), true), "steaming_metal_trapdoor_vent");
 		weathered_concrete_2 = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.ROCK).func_235861_h_().hardnessAndResistance(1.8F)), "weathered_concrete_2");
 		weathered_concrete_3 = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.ROCK).func_235861_h_().hardnessAndResistance(1.8F)), "weathered_concrete_3");
 		weathered_concrete_5 = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.ROCK).func_235861_h_().hardnessAndResistance(1.8F)), "weathered_concrete_5");
@@ -123,15 +121,6 @@ public class Blocks
 		spacex_0026_space26 = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.ROCK).func_235861_h_().hardnessAndResistance(1.8F)), "spacex_0026_space26");
 		spacex_0027_space25 = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.ROCK).func_235861_h_().hardnessAndResistance(1.8F)), "spacex_0027_space25");
 		spacex_0028_space24 = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.ROCK).func_235861_h_().hardnessAndResistance(1.8F)), "spacex_0028_space24");
-		spacex_0029_space23 = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.ROCK).func_235861_h_().hardnessAndResistance(1.8F).notSolid()), "spacex_0029_space23");
-		spacex_0030_space22 = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.ROCK).func_235861_h_().hardnessAndResistance(1.8F).notSolid()), "spacex_0030_space22");
-		spacex_0031_space21 = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.ROCK).func_235861_h_().hardnessAndResistance(1.8F).notSolid()), "spacex_0031_space21");
-		spacex_0032_space20 = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.ROCK).func_235861_h_().hardnessAndResistance(1.8F).notSolid()), "spacex_0032_space20");
-		spacex_0033_space19 = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.ROCK).func_235861_h_().hardnessAndResistance(1.8F).notSolid()), "spacex_0033_space19");
-		spacex_0034_space18 = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.ROCK).func_235861_h_().hardnessAndResistance(1.8F).notSolid()), "spacex_0034_space18");
-		spacex_0035_space17 = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.ROCK).func_235861_h_().hardnessAndResistance(1.8F).notSolid()), "spacex_0035_space17");
-		spacex_0036_space16 = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.ROCK).func_235861_h_().hardnessAndResistance(1.8F).notSolid()), "spacex_0036_space16");
-		spacex_0037_space15 = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.ROCK).func_235861_h_().hardnessAndResistance(1.8F).notSolid()), "spacex_0037_space15");
 		spacex_0038_space14 = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.ROCK).func_235861_h_().hardnessAndResistance(1.8F)), "spacex_0038_space14");
 		spacex_0039_space13 = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.ROCK).func_235861_h_().hardnessAndResistance(1.8F)), "spacex_0039_space13");
 		spacex_0040_space12 = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.ROCK).func_235861_h_().hardnessAndResistance(1.8F)), "spacex_0040_space12");
@@ -220,6 +209,27 @@ public class Blocks
 		asphalt_side = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.ROCK).func_235861_h_().hardnessAndResistance(1.8F)), "asphalt_side");
 		asphalt_top2 = registerBlock(new IUBlockHorizontal(AbstractBlock.Properties.create(Material.ROCK).func_235861_h_().hardnessAndResistance(1.8F)), "asphalt_top2");
 		
+		metal_trapdoor_vent = registerBlock(new TrapDoorBlockIndustrial(AbstractBlock.Properties.create(Material.IRON).func_235861_h_().hardnessAndResistance(1.8F).sound(SoundType.METAL).notSolid().func_235827_a_(Blocks::dunnoWhatThisIs)), "metal_trapdoor_vent");
+		spacex_0029_space23 = registerBlock(new TrapDoorBlockIndustrial(AbstractBlock.Properties.create(Material.IRON).func_235861_h_().hardnessAndResistance(1.8F).sound(SoundType.METAL).notSolid().func_235827_a_(Blocks::dunnoWhatThisIs)), "spacex_0029_space23");
+		spacex_0030_space22 = registerBlock(new TrapDoorBlockIndustrial(AbstractBlock.Properties.create(Material.IRON).func_235861_h_().hardnessAndResistance(1.8F).sound(SoundType.METAL).notSolid().func_235827_a_(Blocks::dunnoWhatThisIs)), "spacex_0030_space22");
+		spacex_0031_space21 = registerBlock(new TrapDoorBlockIndustrial(AbstractBlock.Properties.create(Material.IRON).func_235861_h_().hardnessAndResistance(1.8F).sound(SoundType.METAL).notSolid().func_235827_a_(Blocks::dunnoWhatThisIs)), "spacex_0031_space21");
+		spacex_0032_space20 = registerBlock(new TrapDoorBlockIndustrial(AbstractBlock.Properties.create(Material.IRON).func_235861_h_().hardnessAndResistance(1.8F).sound(SoundType.METAL).notSolid().func_235827_a_(Blocks::dunnoWhatThisIs)), "spacex_0032_space20");
+		spacex_0033_space19 = registerBlock(new TrapDoorBlockIndustrial(AbstractBlock.Properties.create(Material.IRON).func_235861_h_().hardnessAndResistance(1.8F).sound(SoundType.METAL).notSolid().func_235827_a_(Blocks::dunnoWhatThisIs)), "spacex_0033_space19");
+		spacex_0034_space18 = registerBlock(new TrapDoorBlockIndustrial(AbstractBlock.Properties.create(Material.IRON).func_235861_h_().hardnessAndResistance(1.8F).sound(SoundType.METAL).notSolid().func_235827_a_(Blocks::dunnoWhatThisIs)), "spacex_0034_space18");
+		spacex_0035_space17 = registerBlock(new TrapDoorBlockIndustrial(AbstractBlock.Properties.create(Material.IRON).func_235861_h_().hardnessAndResistance(1.8F).sound(SoundType.METAL).notSolid().func_235827_a_(Blocks::dunnoWhatThisIs)), "spacex_0035_space17");
+		spacex_0036_space16 = registerBlock(new TrapDoorBlockIndustrial(AbstractBlock.Properties.create(Material.IRON).func_235861_h_().hardnessAndResistance(1.8F).sound(SoundType.METAL).notSolid().func_235827_a_(Blocks::dunnoWhatThisIs)), "spacex_0036_space16");
+		spacex_0037_space15 = registerBlock(new TrapDoorBlockIndustrial(AbstractBlock.Properties.create(Material.IRON).func_235861_h_().hardnessAndResistance(1.8F).sound(SoundType.METAL).notSolid().func_235827_a_(Blocks::dunnoWhatThisIs)), "spacex_0037_space15");
+		steaming_metal_trapdoor_vent = registerBlock(new TrapDoorBlockIndustrial(AbstractBlock.Properties.create(Material.IRON).func_235861_h_().hardnessAndResistance(5.0F).sound(SoundType.METAL).notSolid().func_235827_a_(Blocks::dunnoWhatThisIs)).setSteaming(), "steaming_metal_trapdoor_vent");
+		steaming_spacex_0029_space23 = registerBlock(new TrapDoorBlockIndustrial(AbstractBlock.Properties.create(Material.IRON).func_235861_h_().hardnessAndResistance(1.8F).sound(SoundType.METAL).notSolid().func_235827_a_(Blocks::dunnoWhatThisIs)).setSteaming(), "steaming_spacex_0029_space23");
+		steaming_spacex_0030_space22 = registerBlock(new TrapDoorBlockIndustrial(AbstractBlock.Properties.create(Material.IRON).func_235861_h_().hardnessAndResistance(1.8F).sound(SoundType.METAL).notSolid().func_235827_a_(Blocks::dunnoWhatThisIs)).setSteaming(), "steaming_spacex_0030_space22");
+		steaming_spacex_0031_space21 = registerBlock(new TrapDoorBlockIndustrial(AbstractBlock.Properties.create(Material.IRON).func_235861_h_().hardnessAndResistance(1.8F).sound(SoundType.METAL).notSolid().func_235827_a_(Blocks::dunnoWhatThisIs)).setSteaming(), "steaming_spacex_0031_space21");
+		steaming_spacex_0032_space20 = registerBlock(new TrapDoorBlockIndustrial(AbstractBlock.Properties.create(Material.IRON).func_235861_h_().hardnessAndResistance(1.8F).sound(SoundType.METAL).notSolid().func_235827_a_(Blocks::dunnoWhatThisIs)).setSteaming(), "steaming_spacex_0032_space20");
+		steaming_spacex_0033_space19 = registerBlock(new TrapDoorBlockIndustrial(AbstractBlock.Properties.create(Material.IRON).func_235861_h_().hardnessAndResistance(1.8F).sound(SoundType.METAL).notSolid().func_235827_a_(Blocks::dunnoWhatThisIs)).setSteaming(), "steaming_spacex_0033_space19");
+		steaming_spacex_0034_space18 = registerBlock(new TrapDoorBlockIndustrial(AbstractBlock.Properties.create(Material.IRON).func_235861_h_().hardnessAndResistance(1.8F).sound(SoundType.METAL).notSolid().func_235827_a_(Blocks::dunnoWhatThisIs)).setSteaming(), "steaming_spacex_0034_space18");
+		steaming_spacex_0035_space17 = registerBlock(new TrapDoorBlockIndustrial(AbstractBlock.Properties.create(Material.IRON).func_235861_h_().hardnessAndResistance(1.8F).sound(SoundType.METAL).notSolid().func_235827_a_(Blocks::dunnoWhatThisIs)).setSteaming(), "steaming_spacex_0035_space17");
+		steaming_spacex_0036_space16 = registerBlock(new TrapDoorBlockIndustrial(AbstractBlock.Properties.create(Material.IRON).func_235861_h_().hardnessAndResistance(1.8F).sound(SoundType.METAL).notSolid().func_235827_a_(Blocks::dunnoWhatThisIs)).setSteaming(), "steaming_spacex_0036_space16");
+		steaming_spacex_0037_space15 = registerBlock(new TrapDoorBlockIndustrial(AbstractBlock.Properties.create(Material.IRON).func_235861_h_().hardnessAndResistance(1.8F).sound(SoundType.METAL).notSolid().func_235827_a_(Blocks::dunnoWhatThisIs)).setSteaming(), "steaming_spacex_0037_space15");
+		
 		digital_key_pad = registerBlock(new IUBlockDirectional(AbstractBlock.Properties.create(Material.IRON).func_235861_h_().hardnessAndResistance(1.0F).notSolid()), "digital_key_pad");
 		old_style_light = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.IRON, MaterialColor.QUARTZ).func_235861_h_().hardnessAndResistance(1.8F).notSolid().func_235838_a_((l) -> { return 15; })), "old_style_light");
 		power_container = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.IRON).func_235861_h_().hardnessAndResistance(2.0F).notSolid()), "power_container");
@@ -242,6 +252,15 @@ public class Blocks
 			RenderTypeLookup.setRenderLayer(spacex_0035_space17, RenderType.getCutout());
 			RenderTypeLookup.setRenderLayer(spacex_0036_space16, RenderType.getCutout());
 			RenderTypeLookup.setRenderLayer(spacex_0037_space15, RenderType.getCutout());
+			RenderTypeLookup.setRenderLayer(steaming_spacex_0029_space23, RenderType.getCutout());
+			RenderTypeLookup.setRenderLayer(steaming_spacex_0030_space22, RenderType.getCutout());
+			RenderTypeLookup.setRenderLayer(steaming_spacex_0031_space21, RenderType.getCutout());
+			RenderTypeLookup.setRenderLayer(steaming_spacex_0032_space20, RenderType.getCutout());
+			RenderTypeLookup.setRenderLayer(steaming_spacex_0033_space19, RenderType.getCutout());
+			RenderTypeLookup.setRenderLayer(steaming_spacex_0034_space18, RenderType.getCutout());
+			RenderTypeLookup.setRenderLayer(steaming_spacex_0035_space17, RenderType.getCutout());
+			RenderTypeLookup.setRenderLayer(steaming_spacex_0036_space16, RenderType.getCutout());
+			RenderTypeLookup.setRenderLayer(steaming_spacex_0037_space15, RenderType.getCutout());
 		}
 	}
 	

@@ -19,13 +19,18 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 
 public class TrapDoorBlockIndustrial extends TrapDoorBlock
 {
-	private boolean steaming;
+	private boolean steaming = false;
 	
-	public TrapDoorBlockIndustrial(AbstractBlock.Properties properties, boolean isSteaming)
+	public TrapDoorBlockIndustrial(AbstractBlock.Properties properties)
 	{
 		super(properties);
+	}
+	
+	public TrapDoorBlockIndustrial setSteaming()
+	{
+		steaming = true;
 		
-		steaming = isSteaming;
+		return this;
 	}
 	
 	@OnlyIn(Dist.CLIENT)

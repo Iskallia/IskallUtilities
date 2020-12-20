@@ -34,7 +34,6 @@ public class IUBlocks
 	public static Block metal_plate_rusty_edge_rivets;
 	public static Block metal_plate_rusty_edge;
 	public static Block metal_plate;
-	public static Block metal_trapdoor_vent;
 	public static Block plain_concrete;
 	public static Block rusty_concrete_metal_plate;
 	public static Block rusty_corrugated_metal_sheet_1;
@@ -47,7 +46,6 @@ public class IUBlocks
 	public static Block semi_rusty_metal_plate_rivets;
 	public static Block semi_rusty_metal_plate;
 	public static Block semi_rusty_metal_plate_2;
-	public static Block steaming_metal_trapdoor_vent;
 	public static Block weathered_concrete_2;
 	public static Block weathered_concrete_3;
 	public static Block weathered_concrete_5;
@@ -92,15 +90,6 @@ public class IUBlocks
 	public static Block spacex_0026_space26;
 	public static Block spacex_0027_space25;
 	public static Block spacex_0028_space24;
-	public static Block spacex_0029_space23;
-	public static Block spacex_0030_space22;
-	public static Block spacex_0031_space21;
-	public static Block spacex_0032_space20;
-	public static Block spacex_0033_space19;
-	public static Block spacex_0034_space18;
-	public static Block spacex_0035_space17;
-	public static Block spacex_0036_space16;
-	public static Block spacex_0037_space15;
 	public static Block spacex_0038_space14;
 	public static Block spacex_0039_space13;
 	public static Block spacex_0040_space12;
@@ -188,6 +177,27 @@ public class IUBlocks
 	public static Block asphalt_light_top;
 	public static Block asphalt_side;
 	public static Block asphalt_top2;
+	
+	public static Block metal_trapdoor_vent;
+	public static Block spacex_0029_space23;
+	public static Block spacex_0030_space22;
+	public static Block spacex_0031_space21;
+	public static Block spacex_0032_space20;
+	public static Block spacex_0033_space19;
+	public static Block spacex_0034_space18;
+	public static Block spacex_0035_space17;
+	public static Block spacex_0036_space16;
+	public static Block spacex_0037_space15;
+	public static Block steaming_metal_trapdoor_vent;
+	public static Block steaming_spacex_0029_space23;
+	public static Block steaming_spacex_0030_space22;
+	public static Block steaming_spacex_0031_space21;
+	public static Block steaming_spacex_0032_space20;
+	public static Block steaming_spacex_0033_space19;
+	public static Block steaming_spacex_0034_space18;
+	public static Block steaming_spacex_0035_space17;
+	public static Block steaming_spacex_0036_space16;
+	public static Block steaming_spacex_0037_space15;
 	
 	public static Block digital_key_pad;
 	public static Block old_style_light;

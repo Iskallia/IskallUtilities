@@ -1,0 +1,6 @@
+{
+	"parent": "iskallutilities:block/template_trapdoor_open",
+	"textures": {
+		"texture": "iskallutilities:block/spacex_0032_space20"
+	}
+}
