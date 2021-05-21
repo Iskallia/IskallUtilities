@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"group": "iskallutilities_blocks",
+	"pattern": [
+		"LGL",
+		"GIG",
+		"LGL"
+	],
+	"key": {
+		"L": {
+			"item": "minecraft:light_gray_concrete"
+		},
+		"G": {
+			"item": "minecraft:gray_concrete"
+		},
+		"I": {
+			"item": "minecraft:iron_block"
+		}
+	},
+	"result": {
+		"item": "iskallutilities:concrete_metal_plate"
+	}
+}

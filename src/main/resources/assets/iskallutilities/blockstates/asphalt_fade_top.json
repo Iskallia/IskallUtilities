@@ -1,5 +1,11 @@
 {
 	"variants": {
+		"facing=up": {
+			"model": "iskallutilities:block/asphalt_fade_top"
+		},
+		"facing=down": {
+			"model": "iskallutilities:block/asphalt_fade_top"
+		},
 		"facing=south": {
 			"model": "iskallutilities:block/asphalt_fade_top"
 		},

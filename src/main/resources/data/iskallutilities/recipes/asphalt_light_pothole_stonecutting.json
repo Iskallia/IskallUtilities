@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "iskallutilities:concrete_metal_plate"
+	},
+	"result": "iskallutilities:asphalt_light_pothole",
+	"count": 1
+}

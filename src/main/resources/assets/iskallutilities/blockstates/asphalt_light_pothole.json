@@ -1,5 +1,11 @@
 {
 	"variants": {
+		"facing=up": {
+			"model": "iskallutilities:block/asphalt_light_pothole"
+		},
+		"facing=down": {
+			"model": "iskallutilities:block/asphalt_light_pothole"
+		},
 		"facing=south": {
 			"model": "iskallutilities:block/asphalt_light_pothole"
 		},

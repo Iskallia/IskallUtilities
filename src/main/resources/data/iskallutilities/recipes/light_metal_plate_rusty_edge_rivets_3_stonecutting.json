@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "iskallutilities:concrete_metal_plate"
+	},
+	"result": "iskallutilities:light_metal_plate_rusty_edge_rivets_3",
+	"count": 1
+}

@@ -1,0 +1,8 @@
+{
+	"type": "minecraft:stonecutting",
+	"ingredient": {
+		"item": "iskallutilities:concrete_metal_plate"
+	},
+	"result": "iskallutilities:spacex_0031_space21",
+	"count": 1
+}
