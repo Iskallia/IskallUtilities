@@ -2,19 +2,16 @@
 	"type": "minecraft:crafting_shaped",
 	"group": "iskallutilities_blocks",
 	"pattern": [
-		"LGL",
-		"GIG",
-		"LGL"
+		"SSS",
+		"SIS",
+		"SSS"
 	],
 	"key": {
-		"L": {
-			"item": "minecraft:light_gray_concrete"
-		},
-		"G": {
-			"item": "minecraft:gray_concrete"
+		"S": {
+			"item": "minecraft:stone"
 		},
 		"I": {
-			"item": "minecraft:iron_block"
+			"item": "minecraft:iron_ingot"
 		}
 	},
 	"result": {
