@@ -42,7 +42,7 @@ public class IskallUtilities
 	
 	private void setup(final FMLCommonSetupEvent event)
 	{
-		LOGGER.info("HELLO FROM PREINIT");
+		LOGGER.info("HALLO FROM PREINIT");
 		LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
 	}
 	
@@ -56,7 +56,7 @@ public class IskallUtilities
 	private void enqueueIMC(final InterModEnqueueEvent event)
 	{
 		// some example code to dispatch IMC to another mod
-		InterModComms.sendTo("examplemod", "helloworld", () -> { LOGGER.info("Hello world from the MDK"); return "Hello world";});
+		InterModComms.sendTo("examplemod", "helloworld", () -> { LOGGER.info("Hallo world from the MDK"); return "Hallo world";});
 	}
 	
 	private void processIMC(final InterModProcessEvent event)
@@ -85,7 +85,7 @@ public class IskallUtilities
 		public static void onBlocksRegistry(final RegistryEvent.Register<Block> blockRegistryEvent)
 		{
 			// register a new block here
-			LOGGER.info("HELLO from Register Block");
+			LOGGER.info("HALLO from Register Block");
 		}
 	}
 }
