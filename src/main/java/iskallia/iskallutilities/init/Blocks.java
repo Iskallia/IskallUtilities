@@ -3,6 +3,7 @@ package iskallia.iskallutilities.init;
 import static iskallia.iskallutilities.common.block.IUBlocks.*;
 
 import iskallia.iskallutilities.common.block.IUBlockBase;
+import iskallia.iskallutilities.common.block.IUBlockConnected;
 import iskallia.iskallutilities.common.block.IUBlockDirectional;
 import iskallia.iskallutilities.common.block.IUBlockHorizontal;
 import iskallia.iskallutilities.common.block.TrapDoorBlockIndustrial;
