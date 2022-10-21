@@ -51,6 +51,7 @@ public class IUBlocks
 	public static Block weathered_concrete_5;
 	public static Block weathered_concrete_6;
 	
+	public static Block caution_line_connected;
 	public static Block caution_line1;
 	public static Block caution_line10;
 	public static Block caution_line11;
