@@ -3,6 +3,7 @@ package iskallia.iskallutilities.init;
 import static iskallia.iskallutilities.common.block.IUBlocks.*;
 
 import iskallia.iskallutilities.common.block.IUBlockBase;
+import iskallia.iskallutilities.common.block.IUBlockConnected;
 import iskallia.iskallutilities.common.block.IUBlockDirectional;
 import iskallia.iskallutilities.common.block.IUBlockHorizontal;
 import iskallia.iskallutilities.common.block.TrapDoorBlockIndustrial;
@@ -82,6 +83,7 @@ public class Blocks
 		weathered_concrete_5 = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.ROCK).func_235861_h_().hardnessAndResistance(1.8F)), "weathered_concrete_5");
 		weathered_concrete_6 = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.ROCK).func_235861_h_().hardnessAndResistance(1.8F)), "weathered_concrete_6");
 		
+		caution_line_connected = registerBlock(new IUBlockConnected(AbstractBlock.Properties.create(Material.ROCK).func_235861_h_().hardnessAndResistance(1.8F)), "caution_line_connected");
 		caution_line1 = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.ROCK).func_235861_h_().hardnessAndResistance(1.8F)), "caution_line1");
 		caution_line10 = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.ROCK).func_235861_h_().hardnessAndResistance(1.8F)), "caution_line10");
 		caution_line11 = registerBlock(new IUBlockBase(AbstractBlock.Properties.create(Material.ROCK).func_235861_h_().hardnessAndResistance(1.8F)), "caution_line11");
